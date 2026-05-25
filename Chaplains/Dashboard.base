@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "Chaplain Candidates"
+    order:
+      - file.name
+      - phone
+      - email
+      - AUX ID
+      - last_updated
+    columnSize:
+      note.name: 136
+      note.phone: 154
+      note.email: 227
+      note.AUX ID: 104
+  - type: cards
+    name: View
